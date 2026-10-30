@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+height: 100vh;
+width: 100vw;
+background-color: rgb(24, 20, 21);
+ 
+}
+.todo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+        width: 100%;
+    height: 20vh;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+form input{
+    padding: 5px;
+}
+form button{
+    padding: 10px 19px;
+    background:yellow;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+form .btn:hover{
+  background: black;
+  color: white;
+  border: 1px solid white;
+  transition: 0.3s;
+}
+.todo h1{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.outerDiv{
+    color: rgb(29, 28, 28);
+    background: white;
+    height: 30px;
+    width: 15rem;
+    display: flex;
+    margin-top: 10px;
+
+}
+.outerDiv ul{
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align:left;
+
+}
+.outerDiv li{
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+.outerDiv span{
+        height: 27px;
+    width: 27px;
+    position: absolute;
+    left: 13.5rem;
+      transform: translate(-50%,-50%);
+       top: 6px;
+    font-size: 34px;
+    cursor: pointer;
+    text-align: center;
+}
